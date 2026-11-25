@@ -30,7 +30,7 @@ def exportar_noticias_negativas_economia(ruta_csv="noticias_negativas_economia.c
     primero = True
     total_filas = 0
 
-    with conectar("nombre_de_tu_bd") as conn:
+    with conectar("lin_news") as conn:
         for bloque_df in pd.read_sql_query(query, conn, chunksize=tamano_bloque):
             bloque_df.to_csv(
                 ruta_csv,
