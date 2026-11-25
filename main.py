@@ -4,8 +4,9 @@ import pandas as pd
 import plotly.express as px
 #from db import conectar
 from consultas import exportar_noticias_negativas_economia
+from consultas import exportar_denue_microempresas
 
-#hacemos la consulta, y almacena el resultado en un CSV:
+"""#hacemos la consulta, y almacena el resultado en un CSV:
 exportar_noticias_negativas_economia()
 
 #hacemos gráfica acumulativa para encontrar hallazgos
@@ -42,4 +43,7 @@ fig = px.bar(
 fig.update_xaxes(type="category")
 
 # Mostrar la gráfica interactiva en tu navegador
-fig.show()
+fig.show()"""
+
+#hacemos la consulta, y almacena el resultado en un CSV:
+exportar_denue_microempresas()
