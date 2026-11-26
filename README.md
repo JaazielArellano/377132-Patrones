@@ -40,6 +40,12 @@ Este proyecto utiliza un archivo `requirements.txt` para gestionar las dependenc
 
 <img width="755" height="356" alt="image" src="https://github.com/user-attachments/assets/2ab7cfd6-510e-4986-a2ec-b1d6e56cfe42" />
 
+<img width="746" height="254" alt="image" src="https://github.com/user-attachments/assets/4fa3c9a7-cffc-4b69-894e-7841808a4941" />
+(~600 registros)
+
+<img width="754" height="263" alt="image" src="https://github.com/user-attachments/assets/39923717-b78d-4809-b755-23ddfd2badfd" />
+(~30k registros)
+
 
 
 # Documentacion Metodológica:
