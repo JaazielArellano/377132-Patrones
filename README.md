@@ -27,24 +27,25 @@ Este proyecto utiliza un archivo `requirements.txt` para gestionar las dependenc
 
 5. Insertar Password:
     Para que el programa funcione correctamente en la red "**UABC-2.4G**" y se pueda conectar a la base de datos debes insertar la contraseña (**la matrícula del alumno**) en los siguientes espacios.
-![image](https://hackmd.io/_uploads/SkUiENSyme.png)
+<img width="813" height="345" alt="image" src="https://github.com/user-attachments/assets/868fe538-29be-4650-88bb-bd82da404bd2" />
+
 
 6. Correr el script principal:
     ```bash 
     py main.py
 
 ## Capturas de evidencia
-![image](https://hackmd.io/_uploads/HJ31HEr1Xx.png)
+<img width="1306" height="480" alt="image" src="https://github.com/user-attachments/assets/cc5d86f1-2c5b-453b-a8e0-79ccca8f16df" />
 
 
+<img width="755" height="356" alt="image" src="https://github.com/user-attachments/assets/2ab7cfd6-510e-4986-a2ec-b1d6e56cfe42" />
 
-![image](https://hackmd.io/_uploads/SkmCNErkQg.png)
-
-![image](https://hackmd.io/_uploads/Sk6gSNH1me.png)
 
 
 # Documentacion Metodológica:
-![image](https://hackmd.io/_uploads/rye3HVrk7x.png)
+
+<img width="1097" height="1280" alt="image" src="https://github.com/user-attachments/assets/fd2dc6d2-7926-41c2-9261-010549e75c6a" />
+
 
 ## Consultas PSQL de Análisis
 
