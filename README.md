@@ -46,5 +46,38 @@ Este proyecto utiliza un archivo `requirements.txt` para gestionar las dependenc
 # Documentacion Metodológica:
 ![image](https://hackmd.io/_uploads/rye3HVrk7x.png)
 
+## Consultas PSQL de Análisis
 
+* **Noticias** con **impacto negativo** en la economía de cada estado de la República Mexicana:
+```
+        SELECT 
+            n.id_noticia,
+            n.titulo,
+            n.resumen,
+            n.fecha_publicacion,
+            n.tema,
+            n.sentimiento,
+            ng.cve_ent,
+            ng.cve_mun
+        FROM noticia n
+        INNER JOIN noticia_geo ng ON n.id_noticia = ng.id_noticia
+        WHERE n.tema IN ('cierre de negocios', 'empleo', 'inversión', 'precios')
+          AND n.sentimiento < 0;
+```
 
+* Negocios dentro de los anteriores estados más afectados, que cumplen con requisitos de vulnerabilidad económica y tamaño de empresa:
+```
+        SELECT DISTINCT ON (id)
+            id,
+            nom_estab,
+            per_ocu,
+            cve_ent,
+            entidad,
+            municipio,
+            telefono,
+            correoelec
+        FROM denue_inegi_oficial
+        WHERE cve_ent IN (2, 14, 8, 11, 26, 21, 20, 15, 25, 31)
+          AND per_ocu = '0 a 5 personas'
+        ORDER BY id DESC;
+```
