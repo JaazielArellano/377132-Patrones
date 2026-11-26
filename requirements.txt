@@ -1,0 +1,4 @@
+pandas==3.1.1
+plotly==7.2.0
+psycopg2==2.9.13
+SQLAlchemy==2.1.9
